@@ -8,3 +8,5 @@ RUN apt-get install -qy freecad-daily
 
 RUN apt-get install -qy python-pip
 RUN pip install msgflo
+
+ADD . /app
